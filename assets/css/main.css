@@ -366,9 +366,9 @@ footer{
 a .icon{
 	color: #dadada;
 }
-.social-icon{
+/*.social-icon{
 	float: right;
-}
+}*/
 a .icon:hover{
 	background: transparent;
 }
