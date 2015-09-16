@@ -121,6 +121,9 @@ body
     font-weight: 300;
     letter-spacing: 1px;
 }
+.navbar-default .navbar-toggle{
+	border-radius: 0px;
+}
 .navbar-default .navbar-nav>li>a:hover{
 	border: 1px solid rgba(255, 255, 255, 0.6);
 	color: #fff;
@@ -131,6 +134,9 @@ body
 .navbar-nav>li>a {
     padding-top: 8px;
     padding-bottom: 8px;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+	background: transparent;
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
     background-color: transparent;
@@ -450,8 +456,14 @@ a .rss:hover{
 .add-item{
 	padding: 20px;
 }
-
-
-@media (max-width: 991px){
-	
+@media (max-width: 768px){
+	.nav>li{
+		text-align: center;
+	}
+	footer{
+		text-align: center;
+	}
+	footer .text-right{
+		text-align: center;
+	}
 } 
