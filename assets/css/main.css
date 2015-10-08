@@ -460,6 +460,21 @@ a .rss:hover{
 	.nav>li{
 		text-align: center;
 	}
+	.service-img{
+		opacity: .2;
+	}
+	.fun-box{
+		margin: 15px;
+	}
+	.quote{
+		padding: 0 50px;
+	}
+	.portfolio .portfolio-item{
+		margin: 15px;
+	}
+	.price-title, .price-list{
+		text-align: center;
+	}
 	footer{
 		text-align: center;
 	}
