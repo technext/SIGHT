@@ -38,7 +38,7 @@
 body
 {
 	font-family: 'Roboto', 'Open-Sans', sans-serif;
-	/*overflow-x: hidden;*/
+	overflow-x: hidden;
 	color: #313131;
 }
 .black{
@@ -83,7 +83,7 @@ body
 ==================================================*/
 .header
 {
-	background: url('../images/header.png');
+	background: url('../images/multi-page-header.jpg');
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
