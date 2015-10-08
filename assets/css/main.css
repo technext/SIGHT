@@ -475,6 +475,9 @@ a .rss:hover{
 	.price-title, .price-list{
 		text-align: center;
 	}
+	.options a{
+		padding: 0 5px;
+	}
 	footer{
 		text-align: center;
 	}
