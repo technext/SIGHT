@@ -51,7 +51,8 @@ body
 	background: #4a148c;
 }
 .section-wrapper{
-	padding: 90px 0px 80px;
+	padding-top: 90px;
+	padding-bottom: 80px;
 }
 .section-title{
 	font-size: 30px;
@@ -106,6 +107,15 @@ body
 .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover{
 	color: #fff;
 }
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #FFF;
+}
+.navbar-fixed-top .navbar-toggle .icon-bar {
+    background-color: #313131;
+}
+.navbar-fixed-top .navbar-toggle{
+	border-color: #313131;
+}
 .navbar-default {
     background-color: transparent;
     border-color: transparent;
@@ -146,12 +156,13 @@ body
 		/*Home*/
 .header-wrapper{
 	text-align: center;
-	font-weight: 200;
-	position: absolute;
-	top: 45%;
-	/*transform: translateY(-50%);*/
-	left: 40%;
-	transform: translateX(-30%);
+	display: table-cell;
+	vertical-align: middle;
+}
+.header-table{
+	display: table;
+	height: 70vh;
+	width: 100%;
 }
 .header-title{
 	font-size: 50px;
@@ -238,6 +249,9 @@ body
 .options a:hover{
 	text-decoration: none;
 }
+.item:hover{
+	cursor: w-resize;
+}
 /*=================================================
 ||				7. Portfolio
 ==================================================*/
@@ -255,13 +269,16 @@ body
 	transition: all .6s ease-in-out;
 }
 .portfolio-img:hover .portfolio-img-hover{
-	background: rgba(0, 0, 0, 0.5);
 	position: absolute;
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 100%;
 	transition: all .6s ease-in-out;
+	background: rgba(0, 0, 0, 0.5);
+}
+.portfolio-img-hover{
+
 }
 .plus{
 	display: none;
@@ -456,7 +473,7 @@ a .rss:hover{
 .add-item{
 	padding: 20px;
 }
-@media (max-width: 768px){
+@media (max-width: 960px){
 	.nav>li{
 		text-align: center;
 	}
@@ -484,4 +501,17 @@ a .rss:hover{
 	footer .text-right{
 		text-align: center;
 	}
+	.navbar-default .navbar-brand{
+		margin-left: 15px;
+	}
+		img.about-img {
+	    width: 100%;
+	    padding: 15px 15px 0px;
+	}
+	.quote{
+		padding: 0 15px;
+	}
 } 
+@media (max-width: 320px){
+	
+}
