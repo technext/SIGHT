@@ -1,35 +1,4 @@
 /*=================================================
-||				Useful Links
-==================================================*/
-/*
-|||||||||	Slider	|||||||||
-|
-|
-*/
-.iPad
-{
-	position: absolute;
-	top: 100px;
-	transform: translateY(-50%);
-	left: 50%;
-	right: 0;
-}
-/*=================================================
-||				Index 
-==================================================*/
-/*
-|	1. Imports
-|	2. Global
-|	3. Colors
-|
-|	=============
-|	SECTIONS
-|	=============
-|	4. Home
-*/
-
-
-/*=================================================
 ||				1. Imports 
 ==================================================*/
 @import url(http://fonts.googleapis.com/css?family=Roboto:200,400,700);
@@ -158,6 +127,7 @@ body
 	text-align: center;
 	display: table-cell;
 	vertical-align: middle;
+	position: relative;
 }
 .header-table{
 	display: table;
@@ -512,6 +482,8 @@ a .rss:hover{
 		padding: 0 15px;
 	}
 } 
-@media (max-width: 320px){
-	
+@media (max-width: 480px){
+	.header-table{
+		max-height: 627px;
+	}
 }
